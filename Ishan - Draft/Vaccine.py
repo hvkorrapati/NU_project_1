@@ -1032,7 +1032,7 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "21bf2d45",
+   "id": "2622033d",
    "metadata": {},
    "outputs": [
     {
@@ -1138,8 +1138,51 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 18,
    "id": "0700333f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3211"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(max_dose)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "34db812c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3211"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "test = max_dose.dropna()\n",
+    "len(test)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ed09acb9",
    "metadata": {},
    "outputs": [],
    "source": []
