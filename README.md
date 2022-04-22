@@ -7,8 +7,13 @@ Submitted by Harish Korrapati, Britney Washington, Ishanjit Sidhu, Corey Lawson-
 ## Summary
 * 
 
-## Technologies
-Google Maps, OpenWeatherMap API, citipy, Matplotlib, Pandas, Jupyter Notebook
+## Packages Required
+sodapy (Socrata), json, requests, pandas, numpy, matplotlib.pyplot, scipy.stats, census
+
+## API Tokens Required
+Save to config.py file as:
+* US CDC: appToken = '<token>'
+* US Census: api_key = '<token>'
 
 ## Additional Analysis
 * Latitude did not show significant relationship to Humidity, Cloudiness, and Wind Speed categories. Sample humidity plot: 
