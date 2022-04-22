@@ -31,6 +31,8 @@ US Census API Key Request: https://api.census.gov/data/key_signup.html
 * Regression and sample heatmap:
  
 ![alt text](https://github.com/hvkorrapati/NU_project_1/blob/be2ae9114d61bc14737430a02dee319472254db1/Images/Scatter_Vaccine_vs_Death.png)
+ 
+* Covid/Vaccine Regression: Moderate negative correlation between vaccines and covid deaths at about -.5. As more vaccines are administered death rates trend down.
   
 ![alt text](https://github.com/hvkorrapati/NU_project_1/blob/be2ae9114d61bc14737430a02dee319472254db1/Images/Scatter_Vaccine_vs_Death_Heat.png)
 
