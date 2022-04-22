@@ -15,7 +15,7 @@ Save to config.py file as:
 * US CDC: appToken = '<token>'
 * US Census: api_key = '<token>'
 
-## Additional Analysis
+## Summary Analysis
 * Latitude did not show significant relationship to Humidity, Cloudiness, and Wind Speed categories. Sample humidity plot: 
 
 ![alt text](https://github.com/clawson13/python-api-challenge/blob/0bfb9434e4ecd2b0e2b83335a9e208d2540a885d/Images/Lat_v_Humidity.png)
