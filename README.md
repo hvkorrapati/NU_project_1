@@ -26,9 +26,8 @@ US Census API Key Request: https://api.census.gov/data/key_signup.html
   
 ![alt text](https://github.com/hvkorrapati/NU_project_1/blob/caaef9c5ccae1a6e5fa9ca6df83c3156460a3cc7/Images/deathct_by_agegrp.png)
   
+* Regression and sample heatmap:
 ![alt text](https://github.com/hvkorrapati/NU_project_1/blob/be2ae9114d61bc14737430a02dee319472254db1/Images/Scatter_Vaccine_vs_Death.png)
-  
-![alt text](https://github.com/hvkorrapati/NU_project_1/blob/be2ae9114d61bc14737430a02dee319472254db1/Images/Scatter_Vaccine_vs_Death_Heat.png)
   
 ![alt text](https://github.com/hvkorrapati/NU_project_1/blob/be2ae9114d61bc14737430a02dee319472254db1/Images/Scatter_Vaccine_vs_Death_Heat.png)
 
