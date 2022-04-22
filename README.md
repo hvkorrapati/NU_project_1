@@ -1,11 +1,11 @@
 # COVID-19 Crunchers
 
-Project 1, Data Science Boot Camp
+NU Data Science Boot Camp: Project 1
 
 Submitted by Harish Korrapati, Britney Washington, Ishanjit Sidhu, Corey Lawson-Enos
 
 ## Summary
-* 
+* Prelminary analysis of COVID-19 death impact on select demograhics in four US states with highest death counts: California, Texas, New York, and Florida. Regression of COVID-19 death counts against vaccination plotted.
 
 ## Packages Required
 sodapy (Socrata), json, requests, pandas, numpy, matplotlib.pyplot, scipy.stats, census
@@ -15,15 +15,17 @@ Save to config.py file as:
 * US CDC: appToken = '<token>'
 * US Census: api_key = '<token>'
 
+US CDC Token Request: https://data.cdc.gov/login
+US Census API Key Request: https://api.census.gov/data/key_signup.html
+
 ## Summary Analysis
-* Latitude did not show significant relationship to Humidity, Cloudiness, and Wind Speed categories. Sample humidity plot: 
+* Sample demographic data for study states:
 
-![alt text](https://github.com/clawson13/python-api-challenge/blob/0bfb9434e4ecd2b0e2b83335a9e208d2540a885d/Images/Lat_v_Humidity.png)
+![alt text](https://github.com/hvkorrapati/NU_project_1/blob/caaef9c5ccae1a6e5fa9ca6df83c3156460a3cc7/Images/deathct_by_sex.png)
+  
+![alt text](https://github.com/hvkorrapati/NU_project_1/blob/caaef9c5ccae1a6e5fa9ca6df83c3156460a3cc7/Images/deathct_by_agegrp.png)
 
-* Although northern latitude change shows a strong link to temperature, the tie is much weaker in the South; as such, it cannot be construed from the dataset generated that latitude is the only contributing factor to global temperature variance.
+* Race/Population Comparison: Since the chi-square values at a confidence level of 95% are much lower than the critical value of 12.6, we conclude that the differences seen across race categories compared to the states' general populations are not statistically significant.
 
-![alt text](https://github.com/clawson13/python-api-challenge/blob/0bfb9434e4ecd2b0e2b83335a9e208d2540a885d/Images/Lat_v_Temp_South.png)
-
-* Interactive Google Map displays VacationPy's plotted cities colored by humidity level:
-
-![alt text](https://github.com/clawson13/python-api-challenge/blob/ba53edee096843f90384e8a38df02067d2372aa0/Images/Heat_Map.png)
+* Regression COVID-19 deaths by fraction of population vaccinated:
+  
