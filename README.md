@@ -32,6 +32,9 @@ US Census API Key Request: https://api.census.gov/data/key_signup.html
   
 ![alt text](https://github.com/hvkorrapati/NU_project_1/blob/be2ae9114d61bc14737430a02dee319472254db1/Images/Scatter_Vaccine_vs_Death_Heat.png)
 
+![alt text](https://github.com/hvkorrapati/NU_project_1/blob/5ef89958a3c418fb5ecb2736058eddf201c6940c/Images/US_County_heatmap.png)
+ 
+
 * Race/Population Comparison: Since the chi-square values at a confidence level of 95% are much lower than the critical value of 12.6, we conclude that the differences seen across race categories compared to the states' general populations are not statistically significant.
 
 * Regression COVID-19 deaths by fraction of population vaccinated:
