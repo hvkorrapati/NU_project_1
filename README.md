@@ -16,6 +16,7 @@ Save to config.py file as:
 * US Census: api_key = '<token>'
 
 US CDC Token Request: https://data.cdc.gov/login
+
 US Census API Key Request: https://api.census.gov/data/key_signup.html
 
 ## Summary Analysis
